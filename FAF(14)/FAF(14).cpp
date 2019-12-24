@@ -157,7 +157,7 @@ int main(void)
 		{
 			cin.clear();
 			cin.ignore((numeric_limits<streamsize>::max)(), '\n');
-			cout << "Некоректные данные, попробуйте снова" << endl;
+			cout << "Некорректные данные, попробуйте снова" << endl;
 		}
 		if (choice == 1)
 		{
@@ -170,7 +170,7 @@ int main(void)
 				{
 					cin.clear();
 					cin.ignore((numeric_limits<streamsize>::max)(), '\n');
-					cout << "Некоректные данные, попробуйте снова" << endl;
+					cout << "Некорректные данные, попробуйте снова" << endl;
 				}
 				cout << "Введите фамилию и инициалы автора:";
 				cin >> w;
@@ -181,14 +181,14 @@ int main(void)
 				{
 					cin.clear();
 					cin.ignore((numeric_limits<streamsize>::max)(), '\n');
-					cout << "Некоректные данные, попробуйте снова" << endl;
+					cout << "Некорректные данные, попробуйте снова" << endl;
 				}
 				cout << "Введите количество книг в библиотеке:";
 				while (!(cin >> t) || (cin.peek() != '\n'))
 				{
 					cin.clear();
 					cin.ignore((numeric_limits<streamsize>::max)(), '\n');
-					cout << "Некоректные данные, попробуйте снова" << endl;
+					cout << "Некорректные данные, попробуйте снова" << endl;
 				}
 				tree = InsertNode(tree, q, w, e, r, t);
 			}
